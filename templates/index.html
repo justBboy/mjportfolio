@@ -1,0 +1,244 @@
+{% extends 'base.html' %}
+{% load static %}
+<!--============= main content of the website ==================== -->
+{% block content %}
+<main>
+    <!-- ---------------home section---------------------------- -->
+      <div class="home" id="home">
+
+            <div class="infomation" data-aos="fade-right" data-aos-delay="200">
+                <h3>Hello my name is</h3>
+                <h1>Asare Gideon</h1>
+                <h2>And I'm a <span  class="type"></span></h2>
+                <a href="">Hire me</a>
+            </div>
+            <div class="image">
+              <img src="{% static 'images/background.png' %}" class="bg" alt="" >
+            </div>
+         
+          
+      </div>
+
+    
+    <!-- ---------------end of home section---------------------------- -->
+
+
+
+
+
+    <!------------------------------ about me page----------------------------------------- -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title" data-aos="fade-left" data-aos-delay="200">About me</h2>
+           <div class="about-content">
+              <div class="column left" data-aos="zoom-in" data-aos-delay="200">
+                  <img src="{% static '/images/maj1.jpg' %}" alt="">
+              </div> 
+              <div class="column right" data-aos="fade-left" data-aos-delay="400">
+                 <div class="text">I'm Asare Gideon and I'm a <span class="typing"></span></div>
+                 <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam id corrupti officiis perspiciatis sed, sint velit, explicabo odit quidem ab atque. Molestiae, ullam aliquam accusantium voluptate in tenetur odio labore ab quia ipsam odit recusandae deserunt, eius incidunt cumque praesentium asperiores. Quas rem incidunt amet exercitationem reprehenderit quod nostrum?</p>
+
+                 <br />
+                 <a href="#">Hire me</a>
+              </div>
+           </div> 
+        </div>
+    </section>
+
+     <!------------------------------ about me page----------------------------------------- -->
+
+
+
+
+
+     <!-- +++++++++++++++++++++++++++++ Services page-------------------------------------------------------------- -->
+    <section class="services" id="services">
+       <div class="max-width">
+           <h2 class="title" data-aos="fade-left" data-aos-delay="200">Services</h2>
+           <div class="serv-content">
+
+             <div class="card" data-aos="fade-right" data-aos-delay="200">
+                 <div class="box">
+                     <div class="fb"><i class="fas fa-paint-brush"></i></div>
+                     <div class="text">Web Design</div>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corporis veritatis officia fuga unde maxime.</p>
+                 </div>
+             </div>
+
+             <div class="card" data-aos="fade-up" data-aos-delay="600">
+                 <div class="box">
+                     <div class="fb"><i class="fas fa-chart-line"></i></div>
+                     <div class="text">Advertisment</div>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corporis veritatis officia fuga unde maxime.</p>
+                 </div>
+             </div>
+
+             <div class="card" data-aos="fade-left" data-aos-delay="400">
+                 <div class="box">
+                    <div class="fb"> <i class="fas fa-code"></i></div>
+                     <div class="text">Apps Design</div>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corporis veritatis officia fuga unde maxime.</p>
+                 </div>
+             </div>
+
+           </div>
+       </div>
+    </section>
+    
+    
+    <!-- +++++++++++++++++++++++++++++ Services page-------------------------------------------------------------- -->
+
+
+<!--<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< skills section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+<section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title" data-aos="fade-left" data-aos-delay="200">My skills</h2>
+        <div class="skills-content">
+            <div class="column left" data-aos="zoom-in" data-aos-delay="300">
+                <div class="text">My creative skills & experiences.</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae magnam sapiente laborum? Laboriosam porro sit sequi omnis, quam consequatur animi tempore fuga architecto sunt, delectus molestias atque ab iste! At magni dignissimos nihil excepturi recusandae! Commodi adipisci sint accusantium praesentium, dolores, repellat deserunt repudiandae similique ducimus architecto laborum quod dolorum!</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="column right">
+                <div class="bars" data-aos="fade-left" data-aos-delay="200">
+                    <div class="info">
+                        <span>HtML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars" data-aos="fade-left" data-aos-delay="400">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars" data-aos="fade-left" data-aos-delay="600">
+                    <div class="info">
+                        <span>Javascript</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars"      data-aos="fade-left" data-aos-delay="800">
+                    <div class="info">
+                        <span>React</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line react"></div>
+                </div>
+                <div class="bars" data-aos="fade-left" data-aos-delay="1000">
+                    <div class="info">
+                        <span>Node js</span>
+                        <span>65%</span> 
+                    </div>
+                    <div class="line node"></div> 
+                </div>
+                <div class="bars" data-aos="fade-left" data-aos-delay="1200">
+                    <div class="info">
+                        <span>PHP</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line php"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- projects section  -->
+
+<section class="project" id="projects">
+   <h2 class="title">Projects</h2>
+   <div class="blog">
+    <div class="container">
+       <div class="owl-carousel owl-theme blog-post">
+           {% for project in projects %}
+                <div class="blog-content">
+                    <img src="{{ project.image.url }}" alt="{{ project.title }}">
+                    <div class="blog-title">
+                        <h3>{{ project.title }}</h3>
+                        <br />
+                        <a href="{{ project.url }}" class="btn btn-blog">See Project</a>
+                    </div>
+                </div>
+           {% endfor %}
+       </div> 
+    </div>
+    <div class="owl-navigation">
+        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left "></i></span>
+        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right "></i></span>
+    </div>
+</div>
+ 
+</section>
+
+<!-- conatact section -->
+
+<section class="contact" id="contact">
+<div class="max-width">
+    <h2 class="title" data-aos="fade-in" data-aos-delay="200">Contact me</h2>
+    <div class="contact-content">
+        <div class="column left" data-aos="fade-right" data-aos-delay="200">
+            <div class="text">Get in Touch</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae repellat sunt at maxime impedit placeat voluptate, nam maiores natus? Doloremque.</p>
+            <div class="icons">
+                <div class="row">
+                    <div class="icon-con"><i class="fas fa-user"></i></div>
+                    <div class="info">
+                        <div class="head">Name</div>
+                        <div class="sub-title">Asare Gideon</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="icon-con"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="info">
+                        <div class="head">Address</div>
+                        <div class="sub-title">Ghana, Accra</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="icon-con"><i class="fas fa-envelope"></i></div>
+                    <div class="info">
+                        <div class="head">Email</div>
+                        <div class="sub-title">asaregid506@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column right" data-aos="fade-left" data-aos-delay="400">
+            <div class="alert alert-danger" id="alert-error" style="display: none;" role="alert">
+            </div>
+            <div class="alert alert-success" id="alert-success" style="display: none;" role="alert">
+            </div>
+            <div class="text">Message me</div>
+            <form action="{% url 'contact' %}" id="contact-form" method="POST">
+                {% csrf_token %}
+                <div class="fields">
+                    <div class="field name">
+                        {{ form.name }}
+                    </div>
+                    <div class="field Email">
+                        {{ form.email }}
+                    </div>
+                </div>
+                        <div class="field textarea">
+                            {{ form.message }}
+                        </div>
+
+                        <div class="button">
+                            <button id="contact-btn" type="submit">Send Message</button>
+                        </div>
+            </form>
+        </div>
+    </div>
+</div>
+</section>
+</main>
+<!--============= main content of the website ==================== -->
+{% endblock content %}
+
+
