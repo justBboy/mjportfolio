@@ -129,7 +129,7 @@ MEDIA_URL = '/media/'
 #email
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = "apikey"
-EMAIL_HOST_PASSWORD = "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"
+EMAIL_HOST_PASSWORD = os.environ.get('SENDGRID_SECRET_KEY')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 

@@ -21,7 +21,7 @@ def contact_view(request):
             email = form.cleaned_data['email']
             message = form.cleaned_data['message']
             try:
-                send_mail(name, f'from {email}, {message}' ,'bornscience1@gmail.com', ['asaregid506@gmail.com'], fail_silently=False)
+                send_mail(name, f'from {email}, {message}' ,'bornscience1@gmail.com', ['justbboyjs@gmail.com'], fail_silently=False)
             except BadHeaderError:
                 return JsonResponse({"error": "there was an error, try again"}, status=400)
             return JsonResponse({'success': 'Your message has been sent'})
