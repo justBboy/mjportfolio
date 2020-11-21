@@ -67,8 +67,18 @@ $(document).ready(function(){
   $toggle.click(function(){
     $nav.toggleClass("collapse"); 
     $port.toggleClass("collapse3")
-    
   });
+  window.addEventListener('resize', resetNav)
+  function resetNav(){
+    if(window.innerWidth <= 750){
+      $links.click(() => {
+        console.log("link yes")
+        $nav.toggleClass("collapse");
+        $port.toggleClass("collapse3")
+      })
+    }
+  }
+  resetNav();
   // carousel
   $(".owl-carousel").owlCarousel({
     loop:true,
@@ -78,8 +88,6 @@ $(document).ready(function(){
     nav:true,
     navText:[$(".owl-navigation .owl-nav-prev"), $(".owl-navigation .owl-nav-next")],
     responsive:responsive
-    
-    
     
   });
   
