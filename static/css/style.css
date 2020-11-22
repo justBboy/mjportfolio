@@ -470,22 +470,22 @@ main .skills .skills-content .right .line::before{
     background: crimson;
 }
 main .skills .skills-content .right .html::before{
-    width: 90%;
+    width: 99%;
 }
 main .skills .skills-content .right .css::before{
-    width: 70%;
+    width: 98%;
 }
 main .skills .skills-content .right .js::before{
-    width: 70%;
+    width: 96%;
 }
 main .skills .skills-content .right .react::before{
-    width: 60%;
+    width: 98%;
 }
 main .skills .skills-content .right .node::before{
-    width: 65%;
+    width: 95%;
 }
 main .skills .skills-content .right .php::before{
-    width: 50%;
+    width: 95%;
 }
 
 
